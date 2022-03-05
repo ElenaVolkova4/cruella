@@ -112,14 +112,11 @@
 
     .header_item {
         color: black;
+        font-size: 1.2em;
     }
 
     .main_text {
         font-size: 6em;
-    }
-
-    .header_item {
-        font-size: 1.2em;
     }
 
     .main_text {
@@ -127,7 +124,17 @@
     }
 }
 
-@media screen and (max-width: 600px) {}
+@media screen and (max-width: 600px) {
+    .header_nav {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .header_item {
+        font-size: 1em;
+    }
+}
 
 .countdownSection {
     background-color: rgb(19, 19, 19);
