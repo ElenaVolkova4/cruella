@@ -5,15 +5,15 @@
 }
 
 .sketch {
-  width: 200px;
-  height: 300px;
+  width: 300px;
+  height: 400px;
 }
 
 .sketches {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
+  gap: 30px;
 }
 
 .conteiner_sketches {
@@ -37,7 +37,13 @@
 
 .prev,
 .next {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   border: 1px solid black;
   border-radius: 50px;
-  width: 40px;
+  width: 80px;
+  height: 50px;
+  cursor: pointer;
 }
