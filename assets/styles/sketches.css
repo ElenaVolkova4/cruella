@@ -49,6 +49,11 @@
     gap: 5px;
   }
 
+  .sketch {
+    width: 200px;
+    height: 300px;
+  }
+
   .prev,
   .next {
     font-size: 15px;
