@@ -24,7 +24,7 @@ function finalCountdown(revange) {
 
             headline.innerText = "The Future is here!";
             countdown.style.display = "none";
-            content.style.display = "block";
+            videoContent.style.display = "block";
 
             clearInterval(x);
         }
