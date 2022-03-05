@@ -5,3 +5,20 @@ h3 {
 * {
   font-family: "Roboto", sans-serif;
 }
+
+.flex-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 10vh;
+}
+
+.footer {
+  background-color: rgb(19, 19, 19);
+}
+
+.footer_text {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  color: #ffffff80;
+  font-size: 12px;
+}
