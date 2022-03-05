@@ -1,0 +1,43 @@
+.conteiner_sketches {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sketch {
+  width: 200px;
+  height: 300px;
+}
+
+.sketches {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.conteiner_sketches {
+  width: 640px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.photos img {
+  /* width: 100%; */
+  display: none;
+}
+
+.photos img:first-child {
+  display: block;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.prev,
+.next {
+  border: 1px solid black;
+  border-radius: 50px;
+  width: 40px;
+}
