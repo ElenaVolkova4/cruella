@@ -5,6 +5,10 @@
   margin-bottom: 40px;
 }
 
+.conteiner_sketches__text {
+  color: rgb(205, 14, 14);
+}
+
 .sketch {
   width: 400px;
   height: 600px;
@@ -32,11 +36,12 @@
   align-items: center;
   justify-content: center;
 
-  border: 3px solid black;
   border-radius: 50px;
   width: 80px;
   height: 50px;
   cursor: pointer;
+  font-size: 45px;
+  color: rgb(205, 14, 14);
 }
 
 @media (max-width: 500px) {
